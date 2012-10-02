@@ -10,12 +10,19 @@
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldLayer.h"
+#import "SceneManager.h"
+//#import "HelloWorldLayer.h"
 #import "RootViewController.h"
+#import "GCHelper.h"
+#import "TileMapLayer.h"
+#import "PublicEnums.h"
+#import "SpriteDictionary.h"
+#import "GCTurnHelper.h"
 
 @implementation AppDelegate
 
 @synthesize window;
+@synthesize viewController;
 
 - (void) removeStartupFlicker
 {
@@ -68,10 +75,12 @@
 	
 	// attach the openglView to the director
 	[director setOpenGLView:glView];
+    
+    [glView setMultipleTouchEnabled:YES];
 	
 //	// Enables High Res mode (Retina Display) on iPhone 4 and maintains low res on all other devices
-//	if( ! [director enableRetinaDisplay:YES] )
-//		CCLOG(@"Retina Display Not supported");
+	if( ! [director enableRetinaDisplay:YES] )
+		CCLOG(@"Retina Display Not supported");
 	
 	//
 	// VERY IMPORTANT:
@@ -103,14 +112,26 @@
 	// Default texture format for PNG/BMP/TIFF/JPEG/GIF images
 	// It can be RGBA8888, RGBA4444, RGB5_A1, RGB565
 	// You can change anytime.
-	[CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
+	[CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA4444];
+    
+    [CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	//[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+    
+    [[CCDirector sharedDirector] setProjection:CCDirectorProjection2D];
+    [SceneManager goMenu];
+    
+    [[GCHelper sharedInstance] authenticateLocalUser];
+    [SpriteDictionary activateDictionary];
+    
+    [[GCTurnHelper sharedInstance] authenticateLocalUser];
+    
+    
 }
 
 

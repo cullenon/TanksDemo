@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tank_set" tilewidth="32" tileheight="32">
+  <image source="tank_set.png" width="128" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2uEOgiAUhmFKMjOxvP+bDaZnI4KjFuFxfj/e2dqyOk9iuQal1IDYjO1pqwW8FjR63OAhJjNt4SEjeOSbY2c7B5kv9gOPPB5VpNBjzgcesoKHrOAhK3jIDB6ygoes4BGvLfx8Rzl/XGzXRA81/laIPeaUyXSp61E8uHo1/pZ2tzvPKXVdTzO2oTPtY6krPN7ffziH1FxaLx15jJ62Bh7ZPLj1qvbq4ZE9+oyHc2jU5zrk1iA6Ltya5K9xJ3hkzUTmT9H1QRcdE3SMaK9fPAZvv1vPYo+5uTWeE80fHuuau+4dnhNSxdazatre1frvV0f1KFm/wuPI5w//PFDCBB77Cx6y4jw6OInyqBP3o208GniI8uDuR//z4P4vCo/yHtzcc3q8AMAxv3Y=
+  </data>
+ </layer>
+</map>

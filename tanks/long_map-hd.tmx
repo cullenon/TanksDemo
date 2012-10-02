@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tank_set-hd" tilewidth="64" tileheight="64">
+  <image source="tank_set-hd.png" width="256" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="36" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzVlM0KwCAMg3tx07nf93/Z1dsQbBqRsR0+KATS0FZPEVkNJqAzIK9DScplgHQGT6+/5ckD8yAvTx7E0qh751eIhGetp0bNesVHnkDMtNatPIxXGLSvTPT37ovZz6hb683ztff+dp5N7D98BjoD8tqVG+S+Gas=
+  </data>
+ </layer>
+ <objectgroup name="WaypointsTop" width="36" height="12">
+  <object name="wp0" x="161" y="167"/>
+  <object name="wp1" x="418" y="164"/>
+  <object name="wp2" x="415" y="303"/>
+  <object name="wp3" x="694" y="297"/>
+  <object name="wp4" x="697" y="161"/>
+  <object name="wp5" x="1058" y="155"/>
+  <object name="wp6" x="1248" y="152"/>
+  <object name="wp7" x="1627" y="155"/>
+  <object name="wp8" x="1627" y="306"/>
+  <object name="wp9" x="1891" y="309"/>
+  <object name="wp10" x="1891" y="161"/>
+  <object name="wp11" x="2121" y="161"/>
+ </objectgroup>
+ <objectgroup name="WaypointsBot" width="36" height="12">
+  <object name="wp0" x="152" y="612"/>
+  <object name="wp1" x="409" y="615"/>
+  <object name="wp2" x="415" y="467"/>
+  <object name="wp3" x="694" y="473"/>
+  <object name="wp4" x="691" y="612"/>
+  <object name="wp5" x="1058" y="606"/>
+  <object name="wp6" x="1252" y="606"/>
+  <object name="wp7" x="1633" y="612"/>
+  <object name="wp8" x="1633" y="461"/>
+  <object name="wp9" x="1900" y="467"/>
+  <object name="wp10" x="1903" y="624"/>
+  <object name="wp11" x="2155" y="621"/>
+ </objectgroup>
+</map>

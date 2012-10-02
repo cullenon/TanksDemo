@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tank_set" tilewidth="32" tileheight="32">
+  <image source="tank_set.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+     <tile id="0">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="1">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="2">
+         <properties>
+             <property name="Wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="3">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="4">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="5">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="6">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="8">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="9">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="10">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="11">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="12">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="13">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="14">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+     <tile id="15">
+         <properties>
+             <property name="wall" value=""/>
+         </properties>
+     </tile>
+
+ </tileset>
+ <layer name="Background" width="36" height="12">
+     <data encoding="base64" compression="zlib">
+         eJzVlM0KwCAMg3tx07nf93/Z1dsQbBqRsR0+KATS0FZPEVkNJqAzIK9DScplgHQGT6+/5ckD8yAvTx7E0qh751eIhGetp0bNesVHnkDMtNatPIxXGLSvTPT37ovZz6hb683ztff+dp5N7D98BjoD8tqVG+S+Gas=
+     </data>
+ </layer>
+ <objectgroup name="WaypointsTop" width="36" height="12">
+  <object name="wp0" x="76" y="82"/>
+  <object name="wp1" x="215" y="79"/>
+  <object name="wp2" x="218" y="148"/>
+  <object name="wp3" x="333" y="145"/>
+  <object name="wp4" x="336" y="76"/>
+  <object name="wp5" x="530" y="79"/>
+  <object name="wp6" x="627" y="79"/>
+  <object name="wp7" x="824" y="82"/>
+  <object name="wp8" x="827" y="152"/>
+  <object name="wp9" x="955" y="148"/>
+  <object name="wp10" x="955" y="82"/>
+  <object name="wp11" x="1070" y="82"/>
+ </objectgroup>
+ <objectgroup name="WaypointsBot" width="36" height="12">
+  <object name="wp0" x="79" y="309"/>
+  <object name="wp1" x="215" y="309"/>
+  <object name="wp2" x="215" y="230"/>
+  <object name="wp3" x="336" y="227"/>
+  <object name="wp4" x="336" y="306"/>
+  <object name="wp5" x="527" y="306"/>
+  <object name="wp6" x="624" y="306"/>
+  <object name="wp7" x="824" y="306"/>
+  <object name="wp8" x="824" y="227"/>
+  <object name="wp9" x="961" y="233"/>
+  <object name="wp10" x="964" y="315"/>
+  <object name="wp11" x="1082" y="309"/>
+ </objectgroup>
+</map>

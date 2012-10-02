@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>army1</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+			<key>posX</key>
+			<integer>0</integer>
+			<key>posY</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>army2</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+			<key>posX</key>
+			<integer>0</integer>
+			<key>posY</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>move_queue</key>
+	<array>
+		<integer>0</integer>
+		<dict>
+			<key>moveType</key>
+			<integer>0</integer>
+			<key>posX</key>
+			<integer>0</integer>
+			<key>posY</key>
+			<integer>0</integer>
+			<key>newX</key>
+			<integer>0</integer>
+			<key>newY</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

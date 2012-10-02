@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tank_set-hd" tilewidth="64" tileheight="64">
+  <image source="tank_set-hd.png" width="256" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="warp" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="wall" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmWGPgyAMhpm3O7Pdbbr//2dPE5rVhkLbFdDED282F4d9KMJLmUMIf876IZ+W/3NK3T8tui16OQvavMRnaP//WDTEdqi459XgeKA+srafYmjNQeOw9sUTffbigLFhHVscV2sOzFLzGcCx9he88+tvX+Taa3y14hjDdr4c4j1zvNZyzbEtGON4zvTqIy4f8H0IW75nvL4q2n6E7Rw/ku9alnumv3C8ECvw0Pxw71gpH5y0LKW5iuZjCO9xACxahlQ+UhqU7aW4KccY3mMIx2FhgLmC8ysaDsjrlcnJp+uURTRHkj66RRbOQ/XgsKjkS1qtUR4c2JvkWHvHWuKAcfV7cI5SnEfiyPnNI3H08u175VjfNfBX91D2HXT/vBcO7Fnxui/hGQX35LyL97jC6/GU+K2GRiTOx3zyfsBcznmpnK+SitaPeu1rU3nUCOLm1r/WHDWEx8ER/JVER87HybFfnRz7UskPS8XVljTi/I0kNq89Ot6zWdvg1sqSN8PnEx4cHu2UPE7K34Dv2hOHJmeYCeqillpbD44UE9TUPZ7dsxbmWb/qXdPzevbJcXJYOXL1BLyH9qiR1OKYUYxTgYmuwy14pBzgO+CMKucV6HnmJdTPkYZDei+sT1P8js8ZLeebvTg4HszikZtvJElscK5rnY/gfBL7COpjLUxaDly3T/mw1DtP46K5yXlzKRPlKNXIUnNqaX8gvZfz4ZZ63T8/TJOK
+  </data>
+ </layer>
+</map>

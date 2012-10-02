@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>red_tank</key>
+	<dict>
+		<key>red_tank_bullet.png</key>
+		<string></string>
+	</dict>
+	<key>blue_tank</key>
+	<dict>
+		<key>blue_tank_bullet.png</key>
+		<string></string>
+	</dict>
+	<key>red_turret</key>
+	<dict>
+		<key>red_turret_bullet.png</key>
+		<string></string>
+	</dict>
+	<key>blue_turret</key>
+	<dict>
+		<key>blue_turret_bullet.png</key>
+		<string></string>
+	</dict>
+	<key>shadow</key>
+	<dict>
+		<key>shadow_bullet.png</key>
+		<string></string>
+	</dict>
+	<key>flash</key>
+	<dict>
+		<key>flash_bullet.png</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
